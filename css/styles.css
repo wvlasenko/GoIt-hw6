@@ -142,23 +142,15 @@ a {
   margin-top: 36px;
 }
 
-/* .about-info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-} */
+/* Section about decortate */
 
-/* .about__list-item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-} */
-
+.about {
+  margin-bottom: 92px;
+}
 .about__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* position: relative; */
 }
 
 .about__list-item {
