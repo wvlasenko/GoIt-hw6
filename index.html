@@ -45,10 +45,11 @@
     </header>
     <main>
       <section class="about container">
-        <h2 class="section__head">
-          <span>We work with </span> Amazing Services
-        </h2>
-
+        <div class="about_head-wrapper">
+          <h2 class="section__head">
+            <span>We work with </span> Amazing Services
+          </h2>
+        </div>
         <div class="about-info">
           <ul class="about__list">
             <li class="about__list-item about__list-item-alarm">
@@ -97,7 +98,9 @@
       </section>
 
       <section class="team container">
-        <h2 class="section__head"><span>Who we are </span>Meet our team</h2>
+        <div class="team_head-wrapper">
+          <h2 class="section__head"><span>Who we are </span>Meet our team</h2>
+        </div>
         <div class="team-description-box">
           <p class="team-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -251,7 +254,6 @@
                 </ul>
               </div>
             </div>
-            </div>
             <p class="team__memder-name">Michael Fertig</p>
             <p class="team__member-position">Developer</p>
           </li>
@@ -260,14 +262,21 @@
     </main>
     <footer>
       <div class="footer-wrapper container">
-        <p class="footer-info">© 2016 MoGo free PSD template by
-         <a class="footer-link" href="#">Laaqiq</a>
+        <p class="footer-info">
+          © 2016 MoGo free PSD template by
+          <a class="footer-link" href="#">Laaqiq</a>
         </p>
-            <form action="#" class="footer__contact-form">
-	           <input type="email" class="footer__contact-form__input" placeholder="Your email...">
-    	       <button type="submit" class="footer__contact-form__btn">Subscribe</button>
-           </form>
-         </div>
+        <form action="#" class="footer__contact-form">
+          <input
+            type="email"
+            class="footer__contact-form__input"
+            placeholder="Your email..."
+          />
+          <button type="submit" class="footer__contact-form__btn">
+            Subscribe
+          </button>
+        </form>
+      </div>
     </footer>
   </body>
 </html>
